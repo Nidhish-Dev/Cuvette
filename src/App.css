@@ -1,0 +1,92 @@
+.card{
+    width: 100%;
+    background-color: #fff;
+    min-width: 620px;
+    border: 1px solid #ebf0f5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    gap: 30px;
+    padding: 28px;
+    position: relative;
+}
+.title .titleText{
+    font-size: 24px;
+    font-weight: 700;
+}
+.tech-item{
+  flex-direction: row;
+    border-radius: 100px;
+    background: #f7f8fa;
+    padding: 4.5px 10px;
+    text-align: center;
+    font-weight: 400;
+    color: #566474;
+}
+
+.lowerTitle{
+    font-size: 14px;
+    color: #9EAAB7;
+}
+.lowerData{
+    font-size: 16px;
+    font-weight: 600;
+    color: #566474;
+}
+.location{
+    color: #9EAAB7;
+    font-size: 13px;
+}
+.type .lowerData{
+    width: 120px;
+    border-radius: 10px;
+    background: #f7f8fa;
+
+    padding: 4.5px 10px;
+    text-align: center;
+    font-weight: 400;
+    color: #445EE2;
+}
+.bordered {
+    padding-right: 1rem;
+    position: relative;
+  }
+  
+  .bordered:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #ebf0f5; /* Light gray border */
+  }
+
+  .viewbtn{
+    font-size: 16px;
+    color: #566474;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #ebf0f5;
+    border-radius: 10px;
+  }
+  .applybtn{
+    font-size: 16px;
+    color: white;
+    background-color: #142683;
+    font-weight: 600;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #ebf0f5;
+    border-radius: 10px;
+  }
+  
+  .sidebar-custom-height {
+    height: 120vh; /* Adjust this value as needed */
+  }
