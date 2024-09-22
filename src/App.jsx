@@ -7,6 +7,7 @@ import FullTimeJobs from './components/FullTimeJobs';
 import OtherJobs from './components/OtherJobs';
 import Applied from './components/Applied';
 import CreateJob from './components/CreateJob';
+import JobForm from './components/JobForm';
 
 const ProtectedRoute = ({ element, allowedRole }) => {
   const storedUser = localStorage.getItem('user');
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/full-time-jobs" element={<FullTimeJobs />} />
         <Route path="/other-jobs" element={<OtherJobs />} />
         <Route path="/applied" element={<Applied />} />
+        <Route path="/jobform" element={<JobForm />} />
       </Routes>
     </Router>
   );

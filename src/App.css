@@ -61,7 +61,7 @@
     right: 0;
     height: 100%;
     width: 1px;
-    background-color: #ebf0f5; /* Light gray border */
+    background-color: #ebf0f5; 
   }
 
   .viewbtn{
@@ -88,5 +88,6 @@
   }
   
   .sidebar-custom-height {
-    height: 120vh; /* Adjust this value as needed */
+    height: 120vh; 
   }
+  
